@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicTacToe</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6d2b2f251e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="gameName">
         <div class="title">Tic Tac Toe</div>
-        
+        <div style="display: flex; justify-content: space-between;width: 400px; margin: 0 auto;">
+            <div>Player1=<span style="font-size: 30px;">o</span></div>
+            <div>Player2=<span style="font-size: 30px;">x</span></div>
+        </div>
     </header>
-    <div class="playerStatus player1status">
-        <div>Player1</div>
-    </div>
+    
     <div class="mainContainer">
         
         <div class="row">
@@ -34,9 +36,7 @@
         </div>
         
     </div>
-    <div class="playerStatus player2status">
-        <div>Player2</div>
-    </div>
+    
     <div class="overLay">
         <div class="winnerMessage">
             <div class="winner">Winner is </div>

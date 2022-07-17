@@ -12,6 +12,7 @@ const cross = `<div class="cross">
     <div class="bar1 bars"></div>
     <div class="bar2 bars"></div>
     </div>`;
+const trophy = `<i class="fa-solid fa-trophy-star"></i>`
 let isDraw=false;
 let winner;
 let finish=false;
