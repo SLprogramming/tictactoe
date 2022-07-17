@@ -7,8 +7,14 @@ body {
     font-size: 30px;
     
 }
+.sign {
+    width: 100px;
+    margin: 10px auto;
+    font-size: 30px;
+    height: 30px;
+}
 .mainContainer {
-    margin: 100px auto;
+    margin: 80px auto;
     background-color: black;
     width: 400px;
     height: 400px;
@@ -22,6 +28,7 @@ body {
     justify-content: space-between;
 }
 .box {
+    position: relative;
     background-color: rgb(255, 234, 234);
     width: 130px;
     height: 130px;
@@ -44,12 +51,7 @@ body {
     right: 0;
 }
 
-.player1 {
-    background-color: blue;
-}
-.player2 {
-    background-color: red;
-}
+
 .overLay {
     display: none;
     position: absolute;
@@ -57,19 +59,19 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(38, 38, 37, 0.648);
+    background-color: rgba(109, 109, 107, 0.762);
 }
 .winnerMessage {
     width: 300px;
     height: 200px;
     margin: 100px auto;
-    background-color: rgb(233, 233, 14);
+    background-color: rgb(0, 0, 0);
 }
 .winner {
     top: 20px;
     position: relative;
     font-size: 35px;
-    color:rgb(252, 0, 0);
+    color:rgb(255, 250, 223);
     text-align: center;
     border-radius: 5px;
 }
@@ -79,11 +81,48 @@ body {
     margin-top: 80px;
 }
 .playAgain {
-    background-color: rgb(42, 42, 45);
+    background-color: rgb(207, 207, 242);
     width: 80px;
     height: 30px;
-    color: white;
+    color: rgb(32, 32, 32);
     border-radius: 4px;
     cursor: pointer;
     padding: 5px;
+}
+.circle {
+    position: absolute;
+    top:10px;
+    left: 10px;
+    width: 70%;
+    height: 70%;
+    border-radius: 100px;
+    border: 10px black solid;
+    
+}
+.cross {
+    background-color: rgb(255, 234, 234);
+    position: relative;
+    top:10px;
+    left: 15px;
+    width: 85%;
+    height: 85%;
+}
+.bars {
+    position: absolute;
+    background-color: black;
+    width: 120%;
+    height: 10px;
+    border-radius: 5px;
+}
+.bar1 {
+    position: absolute;
+    transform: rotate(45deg);
+    transform-origin: left;
+    top: 4px;
+}
+.bar2 {
+    position: absolute;
+    transform: rotate(-45deg);
+    transform-origin: left;
+    bottom: 4px;
 }
