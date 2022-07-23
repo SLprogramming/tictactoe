@@ -1,6 +1,11 @@
+
 body {
     background-color:rgb(255, 234, 234);
 }
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
 .title {
     text-align: center;
     font-weight: bold;
