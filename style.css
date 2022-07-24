@@ -1,11 +1,6 @@
-
 body {
     background-color:rgb(255, 234, 234);
 }
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
 .title {
     text-align: center;
     font-weight: bold;
@@ -73,8 +68,6 @@ body {
     display: none;
     position: absolute;
     top: 0;
-    bottom:0;
-    right:0;
     left: 0;
     width: 100vw;
     height: 100vh;
